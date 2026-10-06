@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual guide · Team Activation Lab (independent concept)</title>
+<link rel="stylesheet" href="../../public/fonts/fonts.css">
+<style>
+@font-face{font-family:'Source Sans 3';font-weight:200 900;src:url('../../public/fonts/SourceSans3-var.woff2') format('woff2')}
+@font-face{font-family:'Ubuntu';font-weight:400;src:url('../../public/fonts/Ubuntu-400.woff2') format('woff2')}
+@font-face{font-family:'Ubuntu';font-weight:500;src:url('../../public/fonts/Ubuntu-500.woff2') format('woff2')}
+body{margin:0;background:#151c2b;color:#f9f9fb;font-family:'Source Sans 3','Source Sans Pro',sans-serif;line-height:1.5}
+main{max-width:1100px;margin:0 auto;padding:32px 20px}
+header{display:flex;align-items:center;gap:16px;border-bottom:1px solid #3e475a;padding-bottom:16px}
+.tag{font-family:Ubuntu;font-size:13px;color:#ffbb45;border:1px solid #ffbb45;border-radius:4px;padding:2px 8px}
+h1{font-weight:600;font-size:40px;margin:24px 0 8px}h2{font-weight:600;font-size:26px;margin:40px 0 12px}
+.eyebrow{font-family:'Source Sans 3';font-weight:300;letter-spacing:.12em;text-transform:uppercase;color:#b8bec9}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.sw{border:1px solid #3e475a;border-radius:8px;overflow:hidden;background:#1c2538}.sw div{height:64px}.sw p{margin:0;padding:8px;font-size:13px;color:#d4d8df}
+.btn{font-family:Ubuntu;font-size:16px;border-radius:4px;padding:10px 16px;border:1px solid #a3ea2a;display:inline-block;margin-right:12px}
+.p{background:#a3ea2a;color:#151c2b}.s{color:#f9f9fb}
+.card{background:#1c2538;border:1px solid #212c42;border-radius:8px;padding:16px;margin:8px 0}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}.shots img{width:100%;border:1px solid #3e475a;border-radius:6px}
+code{color:#ffbb45;background:rgba(255,138,0,.1);padding:1px 4px;border-radius:3px}
+</style></head><body><main>
+<header><img src="../../public/brand/tryhackme-business-logo.svg" width="86" height="48" alt="TryHackMe Business logo"><span class="tag">Independent concept · synthetic data · not an official TryHackMe tool</span></header>
+<p class="eyebrow" style="margin-top:24px">Visual guide</p>
+<h1>Team Activation Lab</h1>
+<p>Tokens below are copied from the public tryhackme.com stylesheets on 6 Oct 2026. See <code>docs/brand-design.md</code> for sources and the token table.</p>
+<h2>Colour</h2><div class="grid">
+<div class="sw"><div style="background:#151c2b"></div><p>#151c2b · page</p></div>
+<div class="sw"><div style="background:#1c2538"></div><p>#1c2538 · background-main</p></div>
+<div class="sw"><div style="background:#212c42"></div><p>#212c42 · background-lighter</p></div>
+<div class="sw"><div style="background:#3e475a"></div><p>#3e475a · divider</p></div>
+<div class="sw"><div style="background:#a3ea2a"></div><p>#a3ea2a · primary-main</p></div>
+<div class="sw"><div style="background:#f9f9fb"></div><p>#f9f9fb · text-main</p></div>
+<div class="sw"><div style="background:#b8bec9"></div><p>#b8bec9 · text-tertiary</p></div>
+<div class="sw"><div style="background:#719cf9"></div><p>#719cf9 · info-main (control)</p></div>
+<div class="sw"><div style="background:#3bc81e"></div><p>#3bc81e · success-main</p></div>
+<div class="sw"><div style="background:#ffbb45"></div><p>#ffbb45 · warning-main (no decision)</p></div>
+<div class="sw"><div style="background:#ff5b67"></div><p>#ff5b67 · error-main</p></div>
+<div class="sw"><div style="background:#ae6bff"></div><p>#ae6bff · dashboard eyebrow</p></div>
+</div>
+<h2>Type</h2>
+<div class="card"><div style="font-size:32px;font-weight:600">Source Sans 600 · heading</div><div style="font-size:16px">Source Sans 400 · body copy for product text and tables.</div><div style="font-family:Ubuntu;font-weight:500;font-size:18px;margin-top:8px">Ubuntu 500 · card titles and controls</div><div class="eyebrow">Eyebrow · Source Sans 300 · tracked uppercase</div></div>
+<h2>Buttons</h2><div class="card"><span class="btn p">Create proof plan</span><span class="btn s">Export decision</span></div>
+<h2>States</h2>
+<div class="card" style="border-color:#3bc81e"><b style="color:#3bc81e">Ship candidate</b>: all quality gates pass and the pre-registered threshold is met.</div>
+<div class="card" style="border-color:#ffbb45;background:#2c2727"><b style="color:#ffbb45">No decision</b>: a quality gate failed, so no winner is called.</div>
+<h2>Public UI reference screenshots</h2><div class="shots">
+<img src="screenshots/business-desktop-fold.jpg" alt="tryhackme.com/business hero, desktop"><img src="screenshots/dashboard-desktop-fold.jpg" alt="Management dashboard page hero, desktop">
+<img src="screenshots/dashboard-scroll-900.jpg" alt="Management dashboard page, product section"><img src="screenshots/dashboard-scroll-1800.jpg" alt="Management dashboard page, framework card">
+<img src="screenshots/business-mobile-fold.jpg" alt="Business page, mobile"><img src="screenshots/dashboard-mobile-fold.jpg" alt="Dashboard page, mobile"></div>
+<p style="margin-top:40px;color:#9ca4b4">Independent concept by Ayo Ahmed. TryHackMe name and logo belong to TryHackMe. Not affiliated with or endorsed by TryHackMe.</p>
+</main></body></html>

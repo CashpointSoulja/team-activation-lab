@@ -1,0 +1,5 @@
+/* Self-hosted Google Fonts files (Ubuntu Font Licence 1.0; Source Sans 3 is SIL OFL 1.1). Latin subset. */
+@font-face{font-family:'Source Sans 3';font-style:normal;font-weight:200 900;font-display:swap;src:url('/fonts/SourceSans3-var.woff2') format('woff2');}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Ubuntu-400.woff2') format('woff2');}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/Ubuntu-500.woff2') format('woff2');}
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/Ubuntu-700.woff2') format('woff2');}
