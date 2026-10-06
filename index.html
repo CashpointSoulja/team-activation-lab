@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Team Activation Lab · independent synthetic-data concept</title>
+<meta name="description" content="Independent concept by Ayo Ahmed: a buyer-to-first-value journey for team cyber training with a measured, account-level experiment attached. Synthetic data only. Not an official TryHackMe tool.">
+<meta name="theme-color" content="#151c2b">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="css/app.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="./" aria-label="Team Activation Lab home">
+      <img src="brand/tryhackme-business-logo.svg" width="72" height="40" alt="TryHackMe Business logo">
+      <span class="brand-name">Team Activation Lab</span>
+    </a>
+    <p class="concept-tag" id="concept-tag">Independent concept · synthetic data · not an official TryHackMe tool</p>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <p class="eyebrow">Buyer-to-first-value, with a measured experiment</p>
+    <h1>Get a trial team to its first useful lab, then decide honestly whether it worked.</h1>
+    <p class="lede">A manager picks one goal, gets a seven-day proof plan and moves two learners through a first meaningful lab. The growth view then checks whether that journey beat the ordinary signup flow, and says <strong>no decision</strong> when the data cannot support one.</p>
+    <div class="notice" role="note">
+      <strong>Everything here is synthetic.</strong> Invitations are never sent, labs are illustrative, there is no TryHackMe account connection, and finishing a first lab is not a claim of security readiness. The activation definition is a hypothesis that needs real research.
+    </div>
+  </section>
+
+  <div class="tabs" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-manager" aria-controls="panel-manager" aria-selected="true">1 · Manager preview</button>
+    <button role="tab" id="tab-growth" aria-controls="panel-growth" aria-selected="false" tabindex="-1">2 · Growth experiment</button>
+  </div>
+
+  <section id="panel-manager" role="tabpanel" aria-labelledby="tab-manager" tabindex="0"></section>
+  <section id="panel-growth" role="tabpanel" aria-labelledby="tab-growth" tabindex="0" hidden></section>
+
+  <section class="persist card" aria-labelledby="persist-h">
+    <h2 id="persist-h">Your data stays in this browser</h2>
+    <p>State is saved only in this browser's local storage. Nothing is sent to a server, there are no cookies or analytics, and private windows, clearing site data or switching device will lose it. Export before you leave if you want to keep it.</p>
+    <div class="row">
+      <button class="btn secondary" id="export-all">Export all local state (JSON)</button>
+      <button class="btn danger" id="reset-all">Reset everything</button>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p><strong>Independent concept by Ayo Ahmed.</strong> Synthetic data only. Not affiliated with, endorsed by or connected to TryHackMe. The TryHackMe name and logo belong to TryHackMe and are shown only to place the concept in context.</p>
+  <p><a href="https://github.com/CashpointSoulja/tryhackme-team-activation-lab">Source and product documents</a></p>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
