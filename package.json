@@ -1,0 +1,22 @@
+{
+  "name": "tryhackme-team-activation-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent synthetic-data concept: buyer-to-first-value team activation journey with an account-level experiment check.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Ayo Ahmed",
+  "scripts": {
+    "generate": "node scripts/generate-scenarios.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check public/js/app.js && node --check public/js/engine.js && node --check public/js/scenarios.js && node --check src/worker.js",
+    "dev": "wrangler dev --port 8787",
+    "deploy": "wrangler deploy",
+    "test:e2e": "node test/e2e/smoke.mjs && node test/e2e/a11y.mjs && node test/e2e/edge.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "^4.10.2",
+    "playwright": "^1.63.0",
+    "wrangler": "^4.40.0"
+  }
+}
