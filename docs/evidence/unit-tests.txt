@@ -1,0 +1,28 @@
+✔ happy path: scenario A ships with quality gates passing (23.26239ms)
+✔ scenario B (duplicates, unbalanced randomisation, short window) returns no_decision (6.52608ms)
+✔ malformed rows are quarantined with row-specific errors; valid rows kept (0.306971ms)
+✔ missing header column is a file-level error (0.107002ms)
+✔ duplicate events never inflate conversions (0.540442ms)
+✔ activation needs two distinct invited learners after plan creation, within 7 days (0.479113ms)
+✔ users invited before plan creation are flagged and only count after the plan exists (0.21284ms)
+✔ out-of-order timestamps are re-sorted and reported (0.191959ms)
+✔ assignment is deterministic, stable across calls and never puts an account in both variants (2.812289ms)
+✔ cross-variant account is flagged and analysed by assignment (intent-to-treat) (0.593851ms)
+✔ learners are nested in accounts: one account with many learners is n=1 (0.521339ms)
+✔ zero denominators do not divide by zero (0.192195ms)
+✔ small sample returns no_decision even with a large observed gap (0.6848ms)
+✔ immature seven-day cohorts are excluded and logged (0.207485ms)
+✔ sample-ratio mismatch is detected (0.056646ms)
+✔ guardrail regression yields iterate, not ship (19.862286ms)
+✔ changing the contract after viewing outcomes forces no_decision (13.096798ms)
+✔ statistics: Wilson and Newcombe match published reference values (0.142081ms)
+✔ export contains evidence, failures, contract, recommendation and limitations (3.639602ms)
+✔ CSV round-trip preserves quoted fields (0.234815ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 132.245785

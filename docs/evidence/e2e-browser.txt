@@ -1,0 +1,32 @@
+desktop manager: ✓Admin chose a team goal (met)✓Admin created the seven-day proof plan (met)✓At least 2 learners invited (met)✓At least 2 distinct invited learners completed a meaningful lab within 7 days (met)
+desktop pilot verdict: Ship to a wider pilot
+desktop download: experiment-decision-pilot.json
+desktop broken verdict: No decision
+desktop after reload tab growth visible: true verdict No decision
+mobile manager: ✓Admin chose a team goal (met)✓Admin created the seven-day proof plan (met)✓At least 2 learners invited (met)✓At least 2 distinct invited learners completed a meaningful lab within 7 days (met)
+mobile pilot verdict: Ship to a wider pilot
+mobile download: experiment-decision-pilot.json
+mobile broken verdict: No decision
+mobile after reload tab growth visible: true verdict No decision
+errors: none
+desktop manager: no violations
+desktop growth pilot: no violations
+desktop growth broken: no violations
+desktop first Tab focus: Skip to content
+desktop page errors: none
+mobile manager: no violations
+mobile growth pilot: no violations
+mobile growth broken: no violations
+mobile first Tab focus: Skip to content
+mobile page errors: none
+upload malformed: 5rows read1valid events kept3quarantined1duplicates dropped0out-of-order, re-sorted
+quarantine reasons: account_id is missing | unknown event_type "teleport" | occurred_at "09/01/2026" is not an ISO-8601 UTC timestamp (…Z) | duplicate event_id (first seen on line 2)
+upload verdict: No decision
+pilot before amend: Ship to a wider pilot
+pilot after amend: No decision | amended tag: true
+export-all: team-activation-lab-state.json keys=tab,manager,growth amended=true
+after reset: tab=true storage=present(fresh) goalChecked=0
+keyboard-only manager: 4/4 criteria met
+requests to other origins: 0
+page errors: none
+cookies: 0
