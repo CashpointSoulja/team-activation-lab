@@ -1,0 +1,62 @@
+[
+ {
+  "id": "s01",
+  "text": "This is Team Activation Lab, an independent concept I built for the B2B Growth P M role. It uses synthetic data, and it is not an official TryHackMe tool.",
+  "dur": 11.906
+ },
+ {
+  "id": "s02",
+  "text": "A company tries cyber training, but signing up does not mean the team gets useful practice. So first, the manager picks one goal.",
+  "dur": 9.108
+ },
+ {
+  "id": "s03",
+  "text": "The goal becomes a seven day proof plan. Creating it logs a plan event, locally, in the same schema the growth view reads.",
+  "dur": 8.795
+ },
+ {
+  "id": "s04",
+  "text": "Now invite two learners. These invitations are simulated. Nothing is sent. They are local records only.",
+  "dur": 8.796
+ },
+ {
+  "id": "s05",
+  "text": "I simulate each learner accepting, starting, and completing a meaningful lab. The first value check turns green when two distinct invited learners finish within seven days.",
+  "dur": 11.883
+ },
+ {
+  "id": "s06",
+  "text": "Second half. Is this journey worth shipping? The growth view loads a seeded pilot of three hundred accounts, and validates every row. Malformed rows are quarantined with a reason, and duplicates are dropped.",
+  "dur": 14.682
+ },
+ {
+  "id": "s07",
+  "text": "Before any outcome appears, I register the contract. The unit is the account, assigned by a seeded hash, with an intent to treat denominator, a minimum sample, and a minimum effect.",
+  "dur": 12.417
+ },
+ {
+  "id": "s08",
+  "text": "The funnel shows every step with its denominator, so you can see exactly who was counted.",
+  "dur": 6.084
+ },
+ {
+  "id": "s09",
+  "text": "Results are absolute rates with ninety five percent intervals, and the percentage point difference. All quality gates pass, so the verdict is ship to a wider pilot.",
+  "dur": 11.442
+ },
+ {
+  "id": "s10",
+  "text": "Now the failure case. This file has duplicate events, a variant logging bug, unbalanced groups, and only three days of observation.",
+  "dur": 9.886
+ },
+ {
+  "id": "s11",
+  "text": "Treatment even looks better here. But the gates fail, so the lab refuses to call a winner. The verdict is no decision.",
+  "dur": 8.232
+ },
+ {
+  "id": "s12",
+  "text": "Every verdict exports as a decision record, with the evidence, the failed checks, and the limitations. It is fake data, but a real product and measurement loop. Independent concept by Ayo Ahmed.",
+  "dur": 14.351
+ }
+]

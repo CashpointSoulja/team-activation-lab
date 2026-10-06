@@ -22,6 +22,7 @@ Independent concept by Ayo Ahmed. Synthetic data only. Not affiliated with TryHa
 ## Product definition
 - [User stories and acceptance criteria](user-stories.md)
 - [Wireframes and flows](wireframes-and-flows.md) · [screenshots](screenshots/)
+- [Walkthrough video, script and subtitles](video/README.md)
 
 ## Measurement
 - [Event / data dictionary and CSV schema](event-dictionary.md)
